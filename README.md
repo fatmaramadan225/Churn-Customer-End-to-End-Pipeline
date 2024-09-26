@@ -67,7 +67,7 @@ Handling columns data types\
 . Easily Recap Raw Data\
 . Public Access for Read/Write from Multiple Locations
 
-## Pyspark ml Model
+## Pyspark ML Model
 . Churn Prediction Model Overview
 #### Objective:
 . Predict customer churn (1 = Churned, 0 = Not Churned).
