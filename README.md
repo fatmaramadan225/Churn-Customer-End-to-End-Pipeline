@@ -91,7 +91,7 @@ Handling columns data types\
    . True Negatives (TN): 49,384 - The number of customers who did not churn and were correctly predicted as not churned.\
    . False Positives (FP): 7,678 - The number of customers who did not churn but were incorrectly predicted as churned.\
    . False Negatives (FN): 9,620 - The number of customers who did churn but were incorrectly predicted as not churned.True Positives (TP): 65,513
-     The number of customers who churned and were correctly predicted as churned.\
+     The number of customers who churned and were correctly predicted as churned.
 
 
 #### Having Challenge
