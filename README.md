@@ -11,7 +11,7 @@ This project is a comprehensive data engineering solution developed as part of t
 - [Usage](#usage)
 - [Dockerization](#dockerization)
 - [Contributors](#contributors)
-- [Demo](#demo)
+- [Demo and Presentation](#demo-and-presentation)
 
 ## Architecture Overview
 The project consists of a scalable, real-time data pipeline that ingests, processes, and stores data using different services and technologies across multiple cloud platforms.
@@ -94,8 +94,9 @@ docker-compose up -d
 - [Ahmed Zahran](https://github.com/Zahran22) 
 - [Yara Mamdouh]()
 
-## Demo
+## Demo and Presentation
 
 - **Demo Video**: [Watch the demo](https://drive.google.com/file/d/1Q3ETz0VFPQ0xynl6nblZ4W4Nn9WsOrKW/view?usp=drive_link)
+- **Presentation Slides**: [View Presentation](https://itigraduationproject.my.canva.site/customer-churn-end-to-end-pipeline)
 
 
