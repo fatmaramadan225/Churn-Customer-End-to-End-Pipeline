@@ -95,6 +95,7 @@ docker-compose up -d
 - [Yara Mamdouh]()
 
 ## Demo
-  [Watch the demo](https://drive.google.com/file/d/1Q3nikhm5CqQSeX6YlK6OHD1Nn_xmD9Wq/view?usp=sharing)
+
+- **Demo Video**: [Watch the demo](https://drive.google.com/file/d/1Q3ETz0VFPQ0xynl6nblZ4W4Nn9WsOrKW/view?usp=drive_link)
 
 
