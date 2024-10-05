@@ -1,0 +1,30 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS customer_chruntable (
+    CustomerID INT,
+    Age INT,
+    Gender STRING,
+    Tenure INT,
+    UsageFrequency INT,
+    SupportCalls INT,
+    PaymentDelay INT,
+    SubscriptionType STRING,
+    ContractLength STRING,
+    TotalSpend INT,
+    LastInteraction INT,
+    prediction INT,
+    created_at STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION '/Data-Customer/';
+
+SELECT * FROM customer_chruntable   LIMIT 10;
+
+SELECT COUNT(*) AS total_customers FROM customer_chruntable;
+SELECT AVG(CAST(Age AS INT)) AS average_age FROM  customer_chruntable  ;
+--gender distribustion 
+SELECT Gender, COUNT(*) AS count FROM customer_chruntable   GROUP BY Gender;
+
+--totat spend 
+SELECT SubscriptionType, SUM(CAST(TotalSpend AS DECIMAL(10, 2))) AS total_spend 
+FROM customer_chruntable 
+GROUP BY SubscriptionType;
